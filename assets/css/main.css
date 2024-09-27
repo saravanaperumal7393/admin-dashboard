@@ -1,0 +1,66 @@
+.form-floating > .bi-calendar-date + .datepicker_input + label {
+    padding-left: 3.5rem;
+    z-index: 3;
+  }
+
+.display_mob{
+    display: none;
+}
+
+
+
+.display_desk{
+    display: block;
+}
+
+.export_btn{
+    padding: 10px 10px 10px 30px;
+
+    font-size: 14px;
+    text-decoration: none;
+    line-height: normal;
+    background: #8d71e8;
+    color:#fff;
+}
+
+.personal-info li .text span{
+    color: #8d71e8;
+    font-weight: 600;
+}
+
+.sidebar .sidebar-menu ul li a .active{
+color:#ff902f;
+}
+#pie-chart{
+    height:300px;
+
+}
+@media(max-width:991px){
+    .header .header-left .logo {
+        display: inline-block;
+        line-height: 60px;
+        width:200px;
+    }
+
+    .header .header-left {
+    float: left;
+    height: 60px;
+    /* position: relative; */
+    /* text-align: center; */
+    margin-left: 27px;
+    width: 150px;
+    z-index: 1;
+    padding: 0 20px;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.display_mob{
+    display: block;
+}
+.display_desk{
+    display: none;
+}
+
+}
+
